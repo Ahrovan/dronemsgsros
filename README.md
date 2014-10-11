@@ -1,5 +1,5 @@
 # droneMsgsROS
-This repository are the messages of sevices of the stack: droneMsgsROS.
+This repository are the messages and sevices of the stack: droneMsgsROS.
 
 
 # Table of contents
