@@ -115,7 +115,9 @@ add_message_files(
 	robotPoseVector.msg
 	robotPoseStampedVector.msg
 
-
+        # trajectories for EuRoC
+        CommandTrajectoryPath.msg
+        CommandTrajectoryWaypoint.msg
 )
 
 
