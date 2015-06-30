@@ -115,7 +115,7 @@ add_message_files(
 	robotPoseVector.msg
 	robotPoseStampedVector.msg
 
-
+	UltrasonicRangeArduino.msg
 )
 
 
