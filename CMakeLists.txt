@@ -22,24 +22,24 @@ add_definitions(-std=c++03)
 
 
 set(DRONEMSGS_SOURCE_DIR
-	src/sources)
-	
+        src/sources)
+
 set(DRONEMSGS_INCLUDE_DIR
-	src/include
-	)
+        src/include
+        )
 
 set(DRONEMSGS_SOURCE_FILES
 
-	#General
-	#src/sources/droneModule.cpp
-	)
-	
+        #General
+        #src/sources/droneModule.cpp
+        )
+
 set(DRONEMSGS_HEADER_FILES
 
-	#General
-	#src/include/droneModule.h
+        #General
+        #src/include/droneModule.h
         src/include/communication_definition.h
-	)
+        )
 
 
 find_package(catkin REQUIRED
@@ -58,7 +58,7 @@ add_message_files(
         monoMeasureStamped.msg #never used
         vector2.msg
         vector2Stamped.msg
-	robotPose.msg
+        robotPose.msg
         dronePitchRollCmd.msg
         droneDYawCmd.msg
         droneDAltitudeCmd.msg
@@ -67,7 +67,7 @@ add_message_files(
         droneAutopilotCommand.msg
 
         #other
-	droneAltitudeCmd.msg
+        droneAltitudeCmd.msg
         droneGoTask.msg
         droneHLCommandAck.msg
         droneHLCommand.msg
@@ -101,7 +101,7 @@ add_message_files(
         vector2i.msg
         vectorPoints2DInt.msg
 
-	robotPoseStamped.msg
+        robotPoseStamped.msg
         robotPoseStampedVector.msg
 
         targetInImage.msg
@@ -110,12 +110,12 @@ add_message_files(
         vector3f.msg
         points3DStamped.msg
 
-	robotPoseStamped.msg
+        robotPoseStamped.msg
 
-	robotPoseVector.msg
-	robotPoseStampedVector.msg
+        robotPoseVector.msg
+        robotPoseStampedVector.msg
 
-	UltrasonicRangeArduino.msg
+        UltrasonicRangeArduino.msg
 )
 
 
@@ -125,6 +125,7 @@ add_service_files(
     FILES
         setControlMode.srv
         setInitDroneYaw_srv_type.srv
+        ultrasonicArduinoService.srv
 )
 
 
@@ -136,7 +137,7 @@ generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs)
 catkin_package(
         INCLUDE_DIRS ${DRONEMSGS_INCLUDE_DIR}
         CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs std_srvs
-	)
+        )
 
 
 
