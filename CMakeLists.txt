@@ -118,6 +118,10 @@ add_message_files(
         # trajectories for EuRoC
         CommandTrajectoryPath.msg
         CommandTrajectoryWaypoint.msg
+
+        #Opentld
+        BoundingBox.msg
+        Target.msg
 )
 
 

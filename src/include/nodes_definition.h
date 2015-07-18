@@ -10,13 +10,14 @@
 
 // ***** BEGIN: MODULE NAMES *****
 const std::string MODULE_NAME_ODOMETRY_STATE_ESTIMATOR   = "droneOdometryStateEstimator";
-const std::string MODULE_NAME_TRAJECTORY_CONTROLLER      = "droneController";
+const std::string MODULE_NAME_TRAJECTORY_CONTROLLER      = "droneTrajectoryController";
+const std::string MODULE_NAME_IBVS_CONTROLLER            = "droneIBVSController";
 const std::string MODULE_NAME_ARUCO_EYE                  = "droneArucoEyeROSModule";
 const std::string MODULE_NAME_LOCALIZER                  = "droneLocalizer";
 const std::string MODULE_NAME_OBSTACLE_PROCESSOR         = "droneObstacleProcessor";
 const std::string MODULE_NAME_TRAJECTORY_PLANNER         = "droneTrajectoryPlanner";
 const std::string MODULE_NAME_MISSION_PLANNER            = "droneMissionPlanner";
-const std::string MODULE_NAME_YAW_PLANNER				 = "droneYawPlanner";
+const std::string MODULE_NAME_YAW_PLANNER	         = "droneYawPlanner";
 const std::string MODULE_NAME_ARCHITECTURE_BRAIN         = "droneArchitectureBrain";
 const std::string MODULE_NAME_DRONE_LOGGER               = "droneLogger";
 
