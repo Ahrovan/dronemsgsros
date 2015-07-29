@@ -54,11 +54,7 @@ add_message_files(
         #driver msgs
         battery.msg
         droneAltitude.msg
-        droneStatus.msg
-        monoMeasureStamped.msg #never used
-        vector2.msg
-        vector2Stamped.msg
-	robotPose.msg
+        droneStatus.msg         
         dronePitchRollCmd.msg
         droneDYawCmd.msg
         droneDAltitudeCmd.msg
@@ -68,83 +64,29 @@ add_message_files(
 
         #other
 	droneAltitudeCmd.msg
-        droneGoTask.msg
+        
         droneHLCommandAck.msg
         droneHLCommand.msg
-        droneInfo.msg
-        droneMissionInfo.msg
-        droneNavCommand.msg #obsolete
-        droneNavData.msg #obsolete
-        dronePose.msg
-        dronePoseStamped.msg
-        dronePositionRefCommand.msg
-        dronePositionRefCommandStamped.msg
-        dronePositionTrajectoryRefCommand.msg
-        droneRefCommand.msg
+        droneMissionInfo.msg     
         droneSensorData.msg
         droneSpeeds.msg
-        droneSpeedsStamped.msg
-        droneTrajectoryRefCommand.msg
-        droneYawRefCommand.msg
+        droneSpeedsStamped.msg        
         imageFeaturesIBVS.msg
-        Landmark3D.msg
-        landmarkVector.msg
-        Observation3D.msg
-        obstaclesTwoDim.msg
-        obstacleTwoDimPole.msg
-        obstacleTwoDimWall.msg
-        obsVector.msg
-        societyPose.msg
-        droneTrajectoryControllerControlMode.msg
-
-        vectorPoints2D.msg
-        vector2i.msg
-        vectorPoints2DInt.msg
-
-	robotPoseStamped.msg
-        robotPoseStampedVector.msg
-
+        
         targetInImage.msg
         vectorTargetsInImageStamped.msg
-
-        vector3f.msg
-        points3DStamped.msg
-
-	robotPoseStamped.msg
-
-	robotPoseVector.msg
-	robotPoseStampedVector.msg
-
-        # trajectories for EuRoC
-        CommandTrajectoryPath.msg
-        CommandTrajectoryWaypoint.msg
-
+    
         #Opentld
         BoundingBox.msg
         Target.msg
 )
 
-
-add_service_files(
-    DIRECTORY
-        srv
-    FILES
-        setControlMode.srv
-        setInitDroneYaw_srv_type.srv
-)
-
-
 generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs)
-
-
-
 
 catkin_package(
         INCLUDE_DIRS ${DRONEMSGS_INCLUDE_DIR}
         CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs std_srvs
 	)
-
-
 
 include_directories(${DRONEMSGS_INCLUDE_DIR})
 include_directories(${catkin_INCLUDE_DIRS})
