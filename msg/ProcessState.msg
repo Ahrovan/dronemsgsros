@@ -1,0 +1,9 @@
+uint8 Initializing=1
+uint8 Running=2
+uint8 Sleeping=3
+uint8 Waiting=4
+uint8 Stopping=5
+uint8 Recovering=6
+uint8 Started=7
+uint8 NotStarted=8
+uint8 state

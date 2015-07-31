@@ -122,6 +122,15 @@ add_message_files(
         #Opentld
         BoundingBox.msg
         Target.msg
+
+            #new process supervisor
+            AliveSignal.msg
+                ProcessState.msg
+            ProcessError.msg
+                ErrorType.msg
+            ProcessDescriptorList.msg
+                ProcessDescriptor.msg
+                    ProcessState.msg
 )
 
 
