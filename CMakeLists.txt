@@ -54,31 +54,52 @@ add_message_files(
         #driver msgs
         battery.msg
         droneAltitude.msg
-        droneStatus.msg         
+        droneStatus.msg
+        vector2.msg
+        vector2Stamped.msg
         dronePitchRollCmd.msg
         droneDYawCmd.msg
         droneDAltitudeCmd.msg
         droneCommand.msg
-
         droneAutopilotCommand.msg
 
         #other
 	droneAltitudeCmd.msg
-        
-        droneHLCommandAck.msg
         droneHLCommand.msg
-        droneMissionInfo.msg     
+        droneInfo.msg
+        droneMissionInfo.msg
+        droneNavCommand.msg 
+        droneNavData.msg 
+        dronePose.msg
+        dronePoseStamped.msg
+        dronePositionRefCommand.msg
+        dronePositionRefCommandStamped.msg
+        dronePositionTrajectoryRefCommand.msg
+        droneRefCommand.msg
         droneSensorData.msg
         droneSpeeds.msg
-        droneSpeedsStamped.msg        
-        imageFeaturesIBVS.msg
-        
+        droneSpeedsStamped.msg
+        droneTrajectoryRefCommand.msg
+        droneYawRefCommand.msg
+        imageFeaturesIBVS.msg        
+        droneTrajectoryControllerControlMode.msg
+        vectorPoints2D.msg
+        vector2i.msg
+        vectorPoints2DInt.msg    
         targetInImage.msg
-        vectorTargetsInImageStamped.msg
-    
+        vectorTargetsInImageStamped.msg      
+        
         #Opentld
         BoundingBox.msg
         Target.msg
+)
+
+add_service_files(
+    DIRECTORY
+        srv
+    FILES
+        setControlMode.srv
+        setInitDroneYaw_srv_type.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs)
