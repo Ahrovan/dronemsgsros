@@ -81,7 +81,8 @@ add_message_files(
         droneSpeedsStamped.msg
         droneTrajectoryRefCommand.msg
         droneYawRefCommand.msg
-        imageFeaturesIBVS.msg        
+        imageFeaturesIBVS.msg  
+        imageFeaturesFeedbackIBVS.msg      
         droneTrajectoryControllerControlMode.msg
         vectorPoints2D.msg
         vector2i.msg
