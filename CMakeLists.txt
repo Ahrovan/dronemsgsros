@@ -87,6 +87,7 @@ add_message_files(
         droneTrajectoryRefCommand.msg
         droneYawRefCommand.msg
         imageFeaturesIBVS.msg
+        imageFeaturesFeedbackIBVS.msg
         Landmark3D.msg
         landmarkVector.msg
         Observation3D.msg
