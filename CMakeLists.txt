@@ -71,6 +71,8 @@ add_message_files(
         droneGoTask.msg
         droneHLCommandAck.msg
         droneHLCommand.msg
+	droneMissionPlannerCommand.msg
+	droneManagerStatus.msg
         droneInfo.msg
         droneMissionInfo.msg
         droneNavCommand.msg #obsolete
@@ -131,6 +133,7 @@ add_service_files(
     FILES
         setControlMode.srv
         setInitDroneYaw_srv_type.srv
+        askForModule.srv
 )
 
 
