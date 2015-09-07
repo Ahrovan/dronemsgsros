@@ -71,6 +71,8 @@ add_message_files(
         droneGoTask.msg
         droneHLCommandAck.msg
         droneHLCommand.msg
+	droneMissionPlannerCommand.msg
+	droneManagerStatus.msg
         droneInfo.msg
         droneMissionInfo.msg
         droneNavCommand.msg #obsolete
@@ -87,6 +89,7 @@ add_message_files(
         droneTrajectoryRefCommand.msg
         droneYawRefCommand.msg
         imageFeaturesIBVS.msg
+        imageFeaturesFeedbackIBVS.msg
         Landmark3D.msg
         landmarkVector.msg
         Observation3D.msg
@@ -115,7 +118,22 @@ add_message_files(
 	robotPoseVector.msg
 	robotPoseStampedVector.msg
 
+        # trajectories for EuRoC
+        CommandTrajectoryPath.msg
+        CommandTrajectoryWaypoint.msg
 
+        #Opentld
+        BoundingBox.msg
+        Target.msg
+
+            #new process supervisor
+            AliveSignal.msg
+                ProcessState.msg
+            ProcessError.msg
+                ErrorType.msg
+            ProcessDescriptorList.msg
+                ProcessDescriptor.msg
+                    ProcessState.msg
 )
 
 
@@ -125,6 +143,7 @@ add_service_files(
     FILES
         setControlMode.srv
         setInitDroneYaw_srv_type.srv
+        askForModule.srv
 )
 
 
