@@ -116,6 +116,8 @@ const std::string DRONE_MISSION_PLANNER_POINT_TO_LOOK_PUB	=	"dronePointToLook";
 const std::string DRONE_MISSION_PLANNER_YAW_TO_LOOK_PUB	=	"droneYawToLook";
 const std::string DRONE_MISSION_INFO_PUB       =    	"droneMissionInfo";
 const std::string DRONE_MISSION_GO_TASK_SUBS    =       	"droneGoTask";
+const std::string DRONE_MISSION_PLANNER_MISSION_SPEED_REF = "droneMissionSpeed";
+const std::string DRONE_MISSION_PLANNER_SPEEDS_SUBSCRIPTION = "ground_speed";
 
 // droneStateEstimator
 const std::string DRONE_STATE_ESTIMATOR_SENSOR_ALTITUDE          =  "altitude";
