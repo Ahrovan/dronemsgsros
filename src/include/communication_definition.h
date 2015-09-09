@@ -62,18 +62,18 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_INTERNAL_POSE         = "simu
 const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "arucoObservation";
 
 
-// droneArucoEye
-const std::string DRONE_ARUCO_EYE_FRONT_IMAGE_RAW   =  "camera/front/image_raw";
-const std::string DRONE_ARUCO_EYE_OBSERVATIONVEC_LIST = "arucoObservation";
+// droneArucoEye -> Not used anymore
+//const std::string DRONE_ARUCO_EYE_FRONT_IMAGE_RAW   =  "camera/front/image_raw";
+//const std::string DRONE_ARUCO_EYE_OBSERVATIONVEC_LIST = "arucoObservation";
 
 
-// droneLocalizer
-const std::string DRONE_LOCALIZER_POSE_SUBSCRIPTION                    = "EstimatedPose_droneGMR_wrt_GFF";
-const std::string DRONE_LOCALIZER_ARUCO_OBSERVATIONVEC_LIST            = "arucoObservation";
-const std::string DRONE_LOCALIZER_POSE_PUBLICATION                     = "ArucoSlam_EstimatedPose";
-const std::string DRONE_LOCALIZER_SPEEDS_PUBLICATION                   = "ArucoSlam_EstimatedSpeeds";
-const std::string DRONE_LOCALIZER_POSE_PUBLICATION_2ND_YPR_CONVENTION  = "ArucoSlam_EstimatedPose_v2"; // Unused
-const std::string DRONE_LOCALIZER_LANDMARK_LIST                        = "ArucoSlam_LandarmkList";
+// droneLocalizer -> Not used anymore!
+//const std::string DRONE_LOCALIZER_POSE_SUBSCRIPTION                    = "EstimatedPose_droneGMR_wrt_GFF";
+//const std::string DRONE_LOCALIZER_ARUCO_OBSERVATIONVEC_LIST            = "arucoObservation";
+//const std::string DRONE_LOCALIZER_POSE_PUBLICATION                     = "ArucoSlam_EstimatedPose";
+//const std::string DRONE_LOCALIZER_SPEEDS_PUBLICATION                   = "ArucoSlam_EstimatedSpeeds";
+//const std::string DRONE_LOCALIZER_POSE_PUBLICATION_2ND_YPR_CONVENTION  = "ArucoSlam_EstimatedPose_v2"; // Unused
+//const std::string DRONE_LOCALIZER_LANDMARK_LIST                        = "ArucoSlam_LandarmkList";
 
 
 // droneObstacleProcessor
