@@ -76,9 +76,9 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "aruco
 //const std::string DRONE_LOCALIZER_LANDMARK_LIST                        = "ArucoSlam_LandarmkList";
 
 
-// droneObstacleProcessor
-const std::string DRONE_OBSTACLE_PROCESSOR_LANDMARK_LIST = "ArucoSlam_LandarmkList";
-const std::string DRONE_OBSTACLE_PROCESSOR_OBSTACLE_LIST = "obstacles";  // TODO_JL
+// droneObstacleProcessor -> Not used anymore!
+//const std::string DRONE_OBSTACLE_PROCESSOR_LANDMARK_LIST = "ArucoSlam_LandarmkList";
+//const std::string DRONE_OBSTACLE_PROCESSOR_OBSTACLE_LIST = "obstacles";  // TODO_JL
 
 
 // droneTrajectoryPlanner
