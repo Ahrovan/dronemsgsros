@@ -14,12 +14,13 @@ const std::string MODULE_NAME_TRAJECTORY_CONTROLLER      = "droneTrajectoryContr
 const std::string MODULE_NAME_IBVS_CONTROLLER            = "droneIBVSController";
 const std::string MODUlE_NAME_OPENTLD_TRANSLATOR         = "openTLDTranslator";
 const std::string MODULE_NAME_TRACKER_EYE                = "trakerEye";
+const std::string MODULE_NAME_HOGSVM                     = "hogsvm_sample";
 const std::string MODULE_NAME_ARUCO_EYE                  = "droneArucoEyeROSModule";
 const std::string MODULE_NAME_LOCALIZER                  = "droneLocalizer";
 const std::string MODULE_NAME_OBSTACLE_PROCESSOR         = "droneObstacleProcessor";
 const std::string MODULE_NAME_TRAJECTORY_PLANNER         = "droneTrajectoryPlanner";
 const std::string MODULE_NAME_MISSION_PLANNER            = "droneMissionPlanner";
-const std::string MODULE_NAME_YAW_PLANNER	         = "droneYawPlanner";
+const std::string MODULE_NAME_YAW_PLANNER	             = "droneYawPlanner";
 const std::string MODULE_NAME_ARCHITECTURE_BRAIN         = "droneArchitectureBrain";
 const std::string MODULE_NAME_DRONE_LOGGER               = "droneLogger";
 
