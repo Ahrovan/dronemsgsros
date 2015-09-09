@@ -17,7 +17,8 @@ int32 MOVE_POSITION = 9
 int32 MOVE_SPEED = 10
 int32 MOVE_TRAJECTORY = 11
 int32 MOVE_VISUAL_SERVOING = 12
-int32 EMERGENCY = 13
+int32 HOVERING_VISUAL_SERVOING = 13
+int32 EMERGENCY = 14
 int32 UNKNOWN = 100
 
 #This Modules are going to be sent by the Mission Planner or HMI
