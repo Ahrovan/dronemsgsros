@@ -123,6 +123,7 @@ add_message_files(
         #Opentld
         BoundingBox.msg
         Target.msg
+        VectorROIs.msg
 
             #new process supervisor
             AliveSignal.msg
