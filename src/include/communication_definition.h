@@ -81,17 +81,17 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "aruco
 //const std::string DRONE_OBSTACLE_PROCESSOR_OBSTACLE_LIST = "obstacles";  // TODO_JL
 
 
-// droneTrajectoryPlanner
-const std::string DRONE_TRAJECTORY_PLANNER_TRAJ_REF_COM   =    "droneTrajectoryAbsRefCommand";
-const std::string DRONE_TRAJECTORY_PLANNER_MISSION_POINT_REF = "droneMissionPoint";
-const std::string DRONE_TRAJECTORY_PLANNER_OBSTACLE_LIST   =   "obstacles";
-const std::string DRONE_TRAJECTORY_PLANNER_SOCIETY_POSE   =    "societyPose";
-#ifdef TEST_WITHOUT_AURCOSLAM
-const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "EstimatedPose_droneGMR_wrt_GFF";
-#endif // TEST_WITHOUT_AURCOSLAM
-#ifdef TEST_WITH_AURCOSLAM
-const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "ArucoSlam_EstimatedPose";
-#endif // TEST_WITH_AURCOSLAM
+// droneTrajectoryPlanner -> Not used anymore!
+//const std::string DRONE_TRAJECTORY_PLANNER_TRAJ_REF_COM   =    "droneTrajectoryAbsRefCommand";
+//const std::string DRONE_TRAJECTORY_PLANNER_MISSION_POINT_REF = "droneMissionPoint";
+//const std::string DRONE_TRAJECTORY_PLANNER_OBSTACLE_LIST   =   "obstacles";
+//const std::string DRONE_TRAJECTORY_PLANNER_SOCIETY_POSE   =    "societyPose";
+//#ifdef TEST_WITHOUT_AURCOSLAM
+//const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "EstimatedPose_droneGMR_wrt_GFF";
+//#endif // TEST_WITHOUT_AURCOSLAM
+//#ifdef TEST_WITH_AURCOSLAM
+//const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "ArucoSlam_EstimatedPose";
+//#endif // TEST_WITH_AURCOSLAM
 
 
 // droneYawCommander
