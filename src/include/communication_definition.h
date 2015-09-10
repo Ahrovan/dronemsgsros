@@ -124,17 +124,17 @@ const std::string DRONE_MISSION_GO_TASK_SUBS    =       	"droneGoTask";
 const std::string DRONE_MISSION_PLANNER_MISSION_SPEED_REF = "droneMissionSpeed";
 const std::string DRONE_MISSION_PLANNER_SPEEDS_SUBSCRIPTION = "ground_speed";
 
-// droneStateEstimator
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_ALTITUDE          =  "altitude";
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_ROTATION_ANGLES   =  "rotation_angles";
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_GROUND_SPEED      =  "ground_speed";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_PITCH_ROLL = "command/pitch_roll";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DALTITUDE  = "command/dAltitude";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DYAW       = "command/dYaw";
-const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_LMrT    = "SOEstimatedPose";
-const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_LMrT  = "SOEstimatedSpeeds";
-const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_GMR     = "EstimatedPose_droneGMR_wrt_GFF";
-const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_GMR   = "EstimatedSpeed_droneGMR_wrt_GFF";
+// droneStateEstimator -> Not used anymore!
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_ALTITUDE          =  "altitude";
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_ROTATION_ANGLES   =  "rotation_angles";
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_GROUND_SPEED      =  "ground_speed";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_PITCH_ROLL = "command/pitch_roll";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DALTITUDE  = "command/dAltitude";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DYAW       = "command/dYaw";
+//const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_LMrT    = "SOEstimatedPose";
+//const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_LMrT  = "SOEstimatedSpeeds";
+//const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_GMR     = "EstimatedPose_droneGMR_wrt_GFF";
+//const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_GMR   = "EstimatedSpeed_droneGMR_wrt_GFF";
 
 
 // droneController
