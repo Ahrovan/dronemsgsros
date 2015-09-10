@@ -94,11 +94,16 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "aruco
 //#endif // TEST_WITH_AURCOSLAM
 
 
-// droneYawCommander
-const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"ArucoSlam_EstimatedPose";
-const std::string DRONE_YAW_PLANNER_POINT_TO_LOOK_SUB =	"dronePointToLook";
-const std::string DRONE_YAW_PLANNER_YAW_TO_LOOK_SUB	  =	"droneYawToLook";
-const std::string DRONE_YAW_PLANNER_YAW_REF_CMD_PUB   =	"droneControllerYawRefCommand";
+// droneYawCommander -> Not used anymore!
+//#ifdef TEST_WITHOUT_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"EstimatedPose_droneGMR_wrt_GFF";
+//#endif // TEST_WITHOUT_AURCOSLAM
+//#ifdef TEST_WITH_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"ArucoSlam_EstimatedPose";
+//#endif // TEST_WITH_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POINT_TO_LOOK_SUB =	"dronePointToLook";
+//const std::string DRONE_YAW_PLANNER_YAW_TO_LOOK_SUB	  =	"droneYawToLook";
+//const std::string DRONE_YAW_PLANNER_YAW_REF_CMD_PUB   =	"droneControllerYawRefCommand";
 
 
 // droneMissionPlanner
