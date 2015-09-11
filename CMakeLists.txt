@@ -30,14 +30,12 @@ set(DRONEMSGS_INCLUDE_DIR
 
 set(DRONEMSGS_SOURCE_FILES
 
-	#General
-	#src/sources/droneModule.cpp
 	)
 	
 set(DRONEMSGS_HEADER_FILES
 
 	#General
-	#src/include/droneModule.h
+        src/include/nodes_definition.h
         src/include/communication_definition.h
 	)
 
@@ -164,3 +162,8 @@ catkin_package(
 
 include_directories(${DRONEMSGS_INCLUDE_DIR})
 include_directories(${catkin_INCLUDE_DIRS})
+
+
+add_custom_target(${PROJECT_NAME}
+            SOURCES ${DRONEMSGS_HEADER_FILES}
+            )

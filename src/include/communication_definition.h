@@ -76,29 +76,34 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "aruco
 //const std::string DRONE_LOCALIZER_LANDMARK_LIST                        = "ArucoSlam_LandarmkList";
 
 
-// droneObstacleProcessor
-const std::string DRONE_OBSTACLE_PROCESSOR_LANDMARK_LIST = "ArucoSlam_LandarmkList";
-const std::string DRONE_OBSTACLE_PROCESSOR_OBSTACLE_LIST = "obstacles";  // TODO_JL
+// droneObstacleProcessor -> Not used anymore!
+//const std::string DRONE_OBSTACLE_PROCESSOR_LANDMARK_LIST = "ArucoSlam_LandarmkList";
+//const std::string DRONE_OBSTACLE_PROCESSOR_OBSTACLE_LIST = "obstacles";  // TODO_JL
 
 
-// droneTrajectoryPlanner
-const std::string DRONE_TRAJECTORY_PLANNER_TRAJ_REF_COM   =    "droneTrajectoryAbsRefCommand";
-const std::string DRONE_TRAJECTORY_PLANNER_MISSION_POINT_REF = "droneMissionPoint";
-const std::string DRONE_TRAJECTORY_PLANNER_OBSTACLE_LIST   =   "obstacles";
-const std::string DRONE_TRAJECTORY_PLANNER_SOCIETY_POSE   =    "societyPose";
-#ifdef TEST_WITHOUT_AURCOSLAM
-const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "EstimatedPose_droneGMR_wrt_GFF";
-#endif // TEST_WITHOUT_AURCOSLAM
-#ifdef TEST_WITH_AURCOSLAM
-const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "ArucoSlam_EstimatedPose";
-#endif // TEST_WITH_AURCOSLAM
+// droneTrajectoryPlanner -> Not used anymore!
+//const std::string DRONE_TRAJECTORY_PLANNER_TRAJ_REF_COM   =    "droneTrajectoryAbsRefCommand";
+//const std::string DRONE_TRAJECTORY_PLANNER_MISSION_POINT_REF = "droneMissionPoint";
+//const std::string DRONE_TRAJECTORY_PLANNER_OBSTACLE_LIST   =   "obstacles";
+//const std::string DRONE_TRAJECTORY_PLANNER_SOCIETY_POSE   =    "societyPose";
+//#ifdef TEST_WITHOUT_AURCOSLAM
+//const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "EstimatedPose_droneGMR_wrt_GFF";
+//#endif // TEST_WITHOUT_AURCOSLAM
+//#ifdef TEST_WITH_AURCOSLAM
+//const std::string DRONE_TRAJECTORY_PLANNER_POSE_SUBSCRIPTION = "ArucoSlam_EstimatedPose";
+//#endif // TEST_WITH_AURCOSLAM
 
 
-// droneYawCommander
-const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"ArucoSlam_EstimatedPose";
-const std::string DRONE_YAW_PLANNER_POINT_TO_LOOK_SUB =	"dronePointToLook";
-const std::string DRONE_YAW_PLANNER_YAW_TO_LOOK_SUB	  =	"droneYawToLook";
-const std::string DRONE_YAW_PLANNER_YAW_REF_CMD_PUB   =	"droneControllerYawRefCommand";
+// droneYawCommander -> Not used anymore!
+//#ifdef TEST_WITHOUT_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"EstimatedPose_droneGMR_wrt_GFF";
+//#endif // TEST_WITHOUT_AURCOSLAM
+//#ifdef TEST_WITH_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POSE_SUBS		  =	"ArucoSlam_EstimatedPose";
+//#endif // TEST_WITH_AURCOSLAM
+//const std::string DRONE_YAW_PLANNER_POINT_TO_LOOK_SUB =	"dronePointToLook";
+//const std::string DRONE_YAW_PLANNER_YAW_TO_LOOK_SUB	  =	"droneYawToLook";
+//const std::string DRONE_YAW_PLANNER_YAW_REF_CMD_PUB   =	"droneControllerYawRefCommand";
 
 
 // droneMissionPlanner
@@ -119,17 +124,17 @@ const std::string DRONE_MISSION_GO_TASK_SUBS    =       	"droneGoTask";
 const std::string DRONE_MISSION_PLANNER_MISSION_SPEED_REF = "droneMissionSpeed";
 const std::string DRONE_MISSION_PLANNER_SPEEDS_SUBSCRIPTION = "ground_speed";
 
-// droneStateEstimator
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_ALTITUDE          =  "altitude";
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_ROTATION_ANGLES   =  "rotation_angles";
-const std::string DRONE_STATE_ESTIMATOR_SENSOR_GROUND_SPEED      =  "ground_speed";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_PITCH_ROLL = "command/pitch_roll";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DALTITUDE  = "command/dAltitude";
-const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DYAW       = "command/dYaw";
-const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_LMrT    = "SOEstimatedPose";
-const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_LMrT  = "SOEstimatedSpeeds";
-const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_GMR     = "EstimatedPose_droneGMR_wrt_GFF";
-const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_GMR   = "EstimatedSpeed_droneGMR_wrt_GFF";
+// droneStateEstimator -> Not used anymore!
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_ALTITUDE          =  "altitude";
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_ROTATION_ANGLES   =  "rotation_angles";
+//const std::string DRONE_STATE_ESTIMATOR_SENSOR_GROUND_SPEED      =  "ground_speed";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_PITCH_ROLL = "command/pitch_roll";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DALTITUDE  = "command/dAltitude";
+//const std::string DRONE_STATE_ESTIMATOR_COMMAND_DRONE_COMMAND_DYAW       = "command/dYaw";
+//const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_LMrT    = "SOEstimatedPose";
+//const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_LMrT  = "SOEstimatedSpeeds";
+//const std::string DRONE_STATE_ESTIMATOR_POSE_PUBLICATION_GMR     = "EstimatedPose_droneGMR_wrt_GFF";
+//const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_GMR   = "EstimatedSpeed_droneGMR_wrt_GFF";
 
 
 // droneController
