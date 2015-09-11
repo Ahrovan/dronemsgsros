@@ -106,7 +106,7 @@ const std::string DRONE_VISUAL_MARKS_EYE_SIMULATOR_OBSERVATION_VEC_LIST = "aruco
 //const std::string DRONE_YAW_PLANNER_YAW_REF_CMD_PUB   =	"droneControllerYawRefCommand";
 
 
-// droneMissionPlanner
+// droneMissionPlanner -> Legacy
 #ifdef TEST_WITHOUT_AURCOSLAM
 const std::string DRONE_MISSION_PLANNER_POSE_SUBSCRIPTION =	"EstimatedPose_droneGMR_wrt_GFF";
 #endif // TEST_WITHOUT_AURCOSLAM
@@ -137,28 +137,28 @@ const std::string DRONE_MISSION_PLANNER_SPEEDS_SUBSCRIPTION = "ground_speed";
 //const std::string DRONE_STATE_ESTIMATOR_SPEEDS_PUBLICATION_GMR   = "EstimatedSpeed_droneGMR_wrt_GFF";
 
 
-// droneController
-const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_PITCH_ROLL      = "command/pitch_roll";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_DALTITUDE       = "command/dAltitude";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_DYAW            = "command/dYaw";
-#ifdef TEST_WITHOUT_AURCOSLAM
-const std::string  DRONE_TRAJECTORY_CONTROLLER_POSE_SUBSCRIPTION_GMR         = "EstimatedPose_droneGMR_wrt_GFF";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEEDS_SUBSCRIPTION_GMR       = "EstimatedSpeed_droneGMR_wrt_GFF";
-#endif // TEST_WITHOUT_AURCOSLAM
-#ifdef TEST_WITH_AURCOSLAM
-const std::string  DRONE_TRAJECTORY_CONTROLLER_POSE_SUBSCRIPTION_GMR         = "ArucoSlam_EstimatedPose";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEEDS_SUBSCRIPTION_GMR       = "ArucoSlam_EstimatedSpeeds";
-#endif // TEST_WITH_AURCOSLAM
-const std::string  DRONE_TRAJECTORY_CONTROLLER_TARGET_PBVS_ALTITUDE_SUBSCRIPTION_GMR     = "command_PBVS/Altitude";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_TARGET_GROUND_ROBOT_POSE_SUBSCRIPTION_GMR = "EstimatedPose_iRobotGMR_wrt_droneGMR";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_POSITION_REF_SUBSCRIPTION     = "dronePositionRefs";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEED_REF_SUBSCRIPTION        = "droneSpeedsRefs";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_ABS_TRAJ_REF_CMD_SUBSCRIPTION = "droneTrajectoryAbsRefCommand";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_REL_TRAJ_REF_CMD_SUBSCRIPTION = "droneTrajectoryRefCommand";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_YAW_REF_CMD_SUBSCRIPTION      = "droneControllerYawRefCommand";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_POSITION_REF_REBROADCAST_PUBLICATION    = "trajectoryControllerPositionReferencesRebroadcast";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEED_REF_REBROADCAST_PUBLICATION       = "trajectoryControllerSpeedReferencesRebroadcast";
-const std::string  DRONE_TRAJECTORY_CONTROLLER_TRAJECTORY_REF_REBROADCAST_PUBLICATION  = "trajectoryControllerTrajectoryReferencesRebroadcast";
+// droneController -> Not used anymore!
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_PITCH_ROLL      = "command/pitch_roll";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_DALTITUDE       = "command/dAltitude";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_DRONE_COMMAND_DYAW            = "command/dYaw";
+//#ifdef TEST_WITHOUT_AURCOSLAM
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_POSE_SUBSCRIPTION_GMR         = "EstimatedPose_droneGMR_wrt_GFF";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEEDS_SUBSCRIPTION_GMR       = "EstimatedSpeed_droneGMR_wrt_GFF";
+//#endif // TEST_WITHOUT_AURCOSLAM
+//#ifdef TEST_WITH_AURCOSLAM
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_POSE_SUBSCRIPTION_GMR         = "ArucoSlam_EstimatedPose";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEEDS_SUBSCRIPTION_GMR       = "ArucoSlam_EstimatedSpeeds";
+//#endif // TEST_WITH_AURCOSLAM
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_TARGET_PBVS_ALTITUDE_SUBSCRIPTION_GMR     = "command_PBVS/Altitude";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_TARGET_GROUND_ROBOT_POSE_SUBSCRIPTION_GMR = "EstimatedPose_iRobotGMR_wrt_droneGMR";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_POSITION_REF_SUBSCRIPTION     = "dronePositionRefs";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEED_REF_SUBSCRIPTION        = "droneSpeedsRefs";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_ABS_TRAJ_REF_CMD_SUBSCRIPTION = "droneTrajectoryAbsRefCommand";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_REL_TRAJ_REF_CMD_SUBSCRIPTION = "droneTrajectoryRefCommand";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_YAW_REF_CMD_SUBSCRIPTION      = "droneControllerYawRefCommand";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_POSITION_REF_REBROADCAST_PUBLICATION    = "trajectoryControllerPositionReferencesRebroadcast";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_SPEED_REF_REBROADCAST_PUBLICATION       = "trajectoryControllerSpeedReferencesRebroadcast";
+//const std::string  DRONE_TRAJECTORY_CONTROLLER_TRAJECTORY_REF_REBROADCAST_PUBLICATION  = "trajectoryControllerTrajectoryReferencesRebroadcast";
 
 
 // DroneInterfaceROSModule
@@ -183,7 +183,7 @@ const std::string DRONE_CONSOLE_INTERFACE_COMMAND_DRONE_COMMAND_DYAW_SUBSCRIPTIO
 const std::string DRONE_CONSOLE_INTERFACE_COMMAND_DRONE_HL_COMMAND_SUBSCRIPTION         = "command/high_level";
 
 
-// DroneModuleROS
+// DroneModuleInterfaceROS
   // DroneEKFStateEstimatorInterface
 const std::string DRONE_STATE_ESTIMATOR_INTERFACE_POSE_SUBSCRIPTION_LMrT   = "SOEstimatedPose";
 const std::string DRONE_STATE_ESTIMATOR_INTERFACE_SPEEDS_SUBSCRIPTION_LMrT = "SOEstimatedSpeeds";
@@ -202,7 +202,7 @@ const std::string DRONE_TRAJECTORY_CONTROLLER_INTERFACE_TRAJECTORY_REF_REBROADCA
 const std::string DRONE_LOCALIZER_INTERFACE_POSE_PUBLICATION   = "ArucoSlam_EstimatedPose";
 const std::string DRONE_LOCALIZER_INTERFACE_SPEEDS_PUBLICATION = "ArucoSlam_EstimatedSpeeds";
 
-// droneBrain
+// droneBrain -> Legacy
   // droneArchitectureBrain
 const std::string DRONE_ARCHITECTURE_BRAIN_IS_IN_THE_SYSTEM  = "isInTheSystem";
 const std::string DRONE_ARCHITECTURE_BRAIN_SOCIETY_BROADCAST = "/societyBroadcast";
@@ -230,12 +230,12 @@ const std::string DRONE_BRAIN_POSE_SUBSCRIBER  = "ArucoSlam_EstimatedPose";
 #endif // TEST_WITH_AURCOSLAM
 
 
-// droneGraphInterface
-const std::string  DRONE_GRAPH_INTERFACE_POSE_SUBS = "ArucoSlam_EstimatedPose";
-const std::string  DRONE_GRAPH_INTERFACE_TRAJECTORY_SUBS = "droneTrajectoryAbsRefCommand";
-const std::string  DRONE_GRAPH_INTERFACE_MISSION_POINT_SUBS = "droneMissionPoint";
-const std::string  DRONE_GRAPH_INTERFACE_SOCIETY_POSE_SUBS = "societyPose";
-const std::string  DRONE_GRAPH_INTERFACE_OBSTACLES_SUBS = "obstacles";
+// droneGraphInterface -> Legacy
+//const std::string  DRONE_GRAPH_INTERFACE_POSE_SUBS = "ArucoSlam_EstimatedPose";
+//const std::string  DRONE_GRAPH_INTERFACE_TRAJECTORY_SUBS = "droneTrajectoryAbsRefCommand";
+//const std::string  DRONE_GRAPH_INTERFACE_MISSION_POINT_SUBS = "droneMissionPoint";
+//const std::string  DRONE_GRAPH_INTERFACE_SOCIETY_POSE_SUBS = "societyPose";
+//const std::string  DRONE_GRAPH_INTERFACE_OBSTACLES_SUBS = "obstacles";
 
 
 // droneLogger stuff
@@ -312,6 +312,7 @@ const std::string DRONE_ARCHITECTURE_RVIZ_INTERFACE_MISSION_POINT_SUBSCRIPTION =
 const std::string DRONE_ARCHITECTURE_RVIZ_INTERFACE_TRAJECTORY_ABS_REF_CMD_SUBSCRIPTION = "trajectoryControllerTrajectoryReferencesRebroadcast"; //"droneTrajectoryAbsRefCommand";
 const std::string DRONE_ARCHITECTURE_RVIZ_INTERFACE_OBSTACLE_LIST_SUBSCRIPTION = "obstacles";
 const std::string DRONE_ARCHITECTURE_RVIZ_INTERFACE_SOCIETY_POSE_SUBSCRIPTION = "societyPose";
+
 
 // IARC14, other stuff                               perception/back/gridIntersections
 const std::string GRID_INTERSECTIONS_TOPIC_BACK   = "perception/back/gridIntersections";
