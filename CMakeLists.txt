@@ -99,6 +99,7 @@ add_message_files(
         obsVector.msg
         societyPose.msg
         droneTrajectoryControllerControlMode.msg
+        FlightAnimation.msg
 
         vectorPoints2D.msg
         vector2i.msg
@@ -145,6 +146,7 @@ add_service_files(
         setControlMode.srv
         setInitDroneYaw_srv_type.srv
         askForModule.srv
+        getFlightAnim.srv
 )
 
 
