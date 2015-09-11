@@ -54,6 +54,7 @@ const std::string MODULE_NAME_PELICAN_LIKE_SIMULATOR             = "dronePelican
 
 const std::string MODULE_NAME_DRONE_ARCHITECTURE_RVIZ_INTERFACE    = "droneArchitectureRvizInterface";
 
+const std::string MODULE_NAME_DRONE_SPEECH_ROS_MODULE = "DroneSpeechROSModule";
 
 const std::string MODULE_NAME_DRONE_KEYPOINTS_GRID_DETECTOR  = "droneComputerVisionIARC14Keypoints_id";
 const std::string MODULE_NAME_DRONE_GROUND_ROBOTS            = "droneComputerVisionIARC14GroundRobots_id";
