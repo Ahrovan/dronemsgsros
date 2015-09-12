@@ -20,6 +20,7 @@ const std::string MODULE_NAME_LOCALIZER                  = "droneLocalizer";
 const std::string MODULE_NAME_OBSTACLE_PROCESSOR         = "droneObstacleProcessor";
 const std::string MODULE_NAME_TRAJECTORY_PLANNER         = "droneTrajectoryPlanner";
 const std::string MODULE_NAME_MISSION_PLANNER            = "droneMissionPlanner";
+const std::string MODULE_NAME_MISSION_SCHEDULER          = "droneMissionScheduler";
 const std::string MODULE_NAME_YAW_PLANNER	             = "droneYawPlanner";
 const std::string MODULE_NAME_ARCHITECTURE_BRAIN         = "droneArchitectureBrain";
 const std::string MODULE_NAME_DRONE_LOGGER               = "droneLogger";
