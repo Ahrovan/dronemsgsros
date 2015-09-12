@@ -12,7 +12,7 @@
 const std::string MODULE_NAME_ODOMETRY_STATE_ESTIMATOR   = "droneOdometryStateEstimator";
 const std::string MODULE_NAME_TRAJECTORY_CONTROLLER      = "droneTrajectoryController";
 const std::string MODULE_NAME_IBVS_CONTROLLER            = "droneIBVSController";
-const std::string MODUlE_NAME_OPENTLD_TRANSLATOR         = "openTLDTranslator";
+const std::string MODUlE_NAME_OPENTLD_TRANSLATOR         = "open_tld_translator";
 const std::string MODULE_NAME_TRACKER_EYE                = "trackerEye";
 const std::string MODULE_NAME_HOGSVM                     = "hogsvm_sample";
 const std::string MODULE_NAME_ARUCO_EYE                  = "droneArucoEyeROSModule";
