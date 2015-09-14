@@ -134,6 +134,11 @@ add_message_files(
             ProcessDescriptorList.msg
                 ProcessDescriptor.msg
                     ProcessState.msg
+
+  distanceToObstacle.msg
+  distancesToObstacles.msg
+
+
 )
 
 
