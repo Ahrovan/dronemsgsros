@@ -13,3 +13,7 @@ float32 sizeY
 #yaw angle
 float32 yawAngle
 
+
+# flag to determine if the obstacle is real or virtual
+bool isVirtual
+
