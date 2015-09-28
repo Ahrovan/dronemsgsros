@@ -93,6 +93,16 @@ add_message_files(
         #Opentld
         BoundingBox.msg
         Target.msg
+        VectorROIs.msg       
+ 
+        #new process supervisor
+            AliveSignal.msg
+                ProcessState.msg
+            ProcessError.msg
+                ErrorType.msg
+            ProcessDescriptorList.msg
+                ProcessDescriptor.msg
+                    ProcessState.msg
 )
 
 add_service_files(
@@ -101,6 +111,7 @@ add_service_files(
     FILES
         setControlMode.srv
         setInitDroneYaw_srv_type.srv
+        askForModule.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs)
