@@ -3,8 +3,8 @@
 
 #include <string>
 
-#define TEST_WITHOUT_AURCOSLAM
-//#define TEST_WITH_AURCOSLAM
+//#define TEST_WITHOUT_AURCOSLAM
+#define TEST_WITH_AURCOSLAM
 
 
 #include "nodes_definition.h"
