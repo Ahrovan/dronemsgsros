@@ -56,7 +56,7 @@ add_message_files(
         monoMeasureStamped.msg #never used
         vector2.msg
         vector2Stamped.msg
-	robotPose.msg
+		robotPose.msg
         dronePitchRollCmd.msg
         droneDYawCmd.msg
         droneDAltitudeCmd.msg
@@ -137,6 +137,10 @@ add_message_files(
 
   distanceToObstacle.msg
   distancesToObstacles.msg
+
+		#Global Mission Planner
+		droneTask.msg
+		droneMission.msg
 
 
 )
