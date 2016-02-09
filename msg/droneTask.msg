@@ -1,6 +1,6 @@
 #Task struct 
 
-time time
+int32 time
 
 int32 mpCommand 
 
