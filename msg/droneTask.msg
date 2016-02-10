@@ -26,6 +26,8 @@ int32 MOVE_FLIP_BACK = 19
 int32 MOVE_EMERGENCY = 20
 int32 UNKNOWN = 100
 
+float32 yaw
+
 string speech_name
 
 #This Modules are going to be sent by the Mission Planner or HMI
