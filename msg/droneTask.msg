@@ -2,6 +2,7 @@
 
 int32 time
 
+
 int32 mpCommand 
 
 int32 TAKE_OFF                   = 1
@@ -36,3 +37,11 @@ string[] module_names
 
 #Used for Moving Tasks
 vector3f point
+
+vector3f pointToLook
+
+int32 yawSelector
+#yawSelector == 0 means no Yaw nor PointToLook
+#yawSelector == 1 means MOVE in YAW
+#yawSelector == 2 means MOVE with PointToLook
+
