@@ -142,7 +142,12 @@ add_message_files(
 		droneTask.msg
 		droneMission.msg
 
-
+  actionArguments.msg
+  actionData.msg
+  CompletedAction.msg
+  SkillDescriptor.msg
+  SkillsList.msg
+  SkillState.msg
 )
 
 
@@ -154,6 +159,9 @@ add_service_files(
         setInitDroneYaw_srv_type.srv
         askForModule.srv
         getFlightAnim.srv
+        missionName.srv
+        openMissionFile.srv
+        skillRequest.srv
 )
 
 
