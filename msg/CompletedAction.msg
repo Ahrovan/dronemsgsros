@@ -1,24 +1,16 @@
-#NOT USED YET
-
 #time
 time time
 
-#MissionPlanner action
-int32 mpAction 
-
 #Final state
-int32 state
+int32 final_state
 
+#final state possible values
 int32 SUCCESSFUL                       = 1
-int32 FAILED                           = 2
+int32 TIMEOUT_ACTIVATED                = 2
 int32 INTERRUPTED                      = 3
 
-#Arguments:
-#Position argument (3D point)
-geometry_msgs/Point position
+#Timeout used
+int32 timeout
 
-#"Where to look" argument (3D point in the plane z=0)
-geometry_msgs/Point where_to_look
-
-#Perform an action during "duration" seconds
-float64 duration
+#action
+actionData action
