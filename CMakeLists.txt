@@ -148,6 +148,7 @@ add_message_files(
   SkillDescriptor.msg
   SkillsList.msg
   SkillState.msg
+  Event.msg
 )
 
 
