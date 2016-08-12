@@ -69,6 +69,9 @@ const std::string MODULE_NAME_DRONE_MULTICAMERAIROBOTTRACKER = "droneMulticamera
 const std::string MODULE_NAME_DRONE_CV_GROUND_ROBOTS_2D_TO_3D  = "droneCVGroundRobots2DTo3D";
 const std::string MODULE_NAME_DRONE_CV_KEYPOINTS_2D_TO_3D  = "droneCVKeypoints2DTo3D";
 
+const std::string MODULE_NAME_ROBOT_LOCALIZATION = "droneRobotLocalizationROSModuleNode";
+const std::string MODULE_NAME_NAVIGATION_STACK = "droneNavigationStackROSModuleNode";
+
 namespace ModuleNames {
     enum name { ODOMETRY_STATE_ESTIMATOR = 1,
                 TRAJECTORY_CONTROLLER,

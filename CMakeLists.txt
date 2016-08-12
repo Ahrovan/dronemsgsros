@@ -41,7 +41,7 @@ set(DRONEMSGS_HEADER_FILES
 
 
 find_package(catkin REQUIRED
-                COMPONENTS message_generation std_msgs sensor_msgs geometry_msgs std_srvs)
+                COMPONENTS message_generation std_msgs sensor_msgs geometry_msgs std_srvs opencv_apps)
 
 
 
@@ -141,6 +141,8 @@ add_message_files(
 		#Global Mission Planner
 		droneTask.msg
 		droneMission.msg
+                objectDetected.msg
+                vectorObjectsDetected.msg
 
   actionArguments.msg
   actionData.msg
@@ -165,14 +167,14 @@ add_service_files(
 )
 
 
-generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs)
+generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs std_srvs opencv_apps)
 
 
 
 
 catkin_package(
         INCLUDE_DIRS ${DRONEMSGS_INCLUDE_DIR}
-        CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs std_srvs
+        CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs std_srvs opencv_apps
 	)
 
 
