@@ -9,4 +9,5 @@ string object_name
 
 uint16 object_id
 
-uint16 drone_id 
+uint16 drone_id
+

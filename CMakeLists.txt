@@ -141,8 +141,8 @@ add_message_files(
 		#Global Mission Planner
 		droneTask.msg
 		droneMission.msg
-                objectDetected.msg
-                vectorObjectsDetected.msg
+                visualObjectRecognized.msg
+                vectorVisualObjectsRecognized.msg
 
   actionArguments.msg
   actionData.msg
