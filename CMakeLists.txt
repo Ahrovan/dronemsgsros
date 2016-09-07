@@ -147,6 +147,7 @@ add_message_files(
   actionArguments.msg
   actionData.msg
   CompletedAction.msg
+  PublicEvent.msg
   SkillDescriptor.msg
   SkillsList.msg
   SkillState.msg
