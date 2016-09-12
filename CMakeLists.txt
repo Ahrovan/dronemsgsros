@@ -143,6 +143,7 @@ add_message_files(
 		droneMission.msg
                 visualObjectRecognized.msg
                 vectorVisualObjectsRecognized.msg
+                dronePerceptionManagerMissionRequest.msg
 
   actionArguments.msg
   actionData.msg
