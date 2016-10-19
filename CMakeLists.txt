@@ -168,6 +168,7 @@ add_service_files(
         missionName.srv
         openMissionFile.srv
         skillRequest.srv
+				perceptionManagerUpdateMissionStateSrv.srv
 )
 
 
