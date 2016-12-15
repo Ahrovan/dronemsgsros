@@ -20,6 +20,7 @@ int32 FLIP_LEFT                  = 10
 int32 FLIP_FRONT                 = 11
 int32 FLIP_BACK                  = 12
 int32 FOLLOW_IMAGE               = 13
+int32 APPROACH_POINT             = 14
 
 int32 UNKNOWN                    = 100
 
