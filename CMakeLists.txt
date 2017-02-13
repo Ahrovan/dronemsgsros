@@ -169,6 +169,8 @@ add_service_files(
         openMissionFile.srv
         skillRequest.srv
 				perceptionManagerUpdateMissionStateSrv.srv
+        executeQuery.srv
+        beliefList.srv
 )
 
 

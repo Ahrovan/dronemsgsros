@@ -1,0 +1,8 @@
+string query
+---
+bool success
+
+# Same-size arrays where variables[i] is the variable name
+# and substitutions[i] is the value that the variable takes
+string[] variables
+string[] substitutions
