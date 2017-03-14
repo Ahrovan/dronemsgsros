@@ -179,6 +179,7 @@ add_service_files(
 	#Executive Layer
 	activateCapabilities.srv
 	cancelCapabilities.srv
+        behaviorSrv.srv
 )
 
 
