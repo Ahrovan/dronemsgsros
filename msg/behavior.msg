@@ -1,9 +1,6 @@
 # behavior name
 string name
 
-# behavior mode
-string mode
-
 # behavior arguments
 string arguments
 
