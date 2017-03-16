@@ -126,34 +126,39 @@ add_message_files(
         Target.msg
         VectorROIs.msg
 
-            #new process supervisor
-            AliveSignal.msg
-                ProcessState.msg
-            ProcessError.msg
-                ErrorType.msg
-            ProcessDescriptorList.msg
-                ProcessDescriptor.msg
-                    ProcessState.msg
+        #new process supervisor
+        AliveSignal.msg
+        ProcessState.msg
+        ProcessError.msg
+        ErrorType.msg
+        ProcessDescriptorList.msg
+        ProcessDescriptor.msg
+        ProcessState.msg
 
-  distanceToObstacle.msg
-  distancesToObstacles.msg
+	distanceToObstacle.msg
+	distancesToObstacles.msg
 
-		#Global Mission Planner
-		droneTask.msg
-		droneMission.msg
-                visualObjectRecognized.msg
-                vectorVisualObjectsRecognized.msg
-                dronePerceptionManagerMissionRequest.msg
-                dronePerceptionManagerMissionState.msg
+	#Global Mission Planner
+	droneTask.msg
+	droneMission.msg
+        visualObjectRecognized.msg
+        vectorVisualObjectsRecognized.msg
+        dronePerceptionManagerMissionRequest.msg
+        dronePerceptionManagerMissionState.msg
 
-  actionArguments.msg
-  actionData.msg
-  CompletedAction.msg
-  PublicEvent.msg
-  SkillDescriptor.msg
-  SkillsList.msg
-  SkillState.msg
-  Event.msg
+	actionArguments.msg
+	actionData.msg
+	CompletedAction.msg
+	PublicEvent.msg
+	SkillDescriptor.msg
+	SkillsList.msg
+	SkillState.msg
+	Event.msg
+
+	# Executive Layer
+	behavior.msg
+	behaviorEvent.msg
+	capability.msg
 )
 
 
@@ -168,9 +173,13 @@ add_service_files(
         missionName.srv
         openMissionFile.srv
         skillRequest.srv
-				perceptionManagerUpdateMissionStateSrv.srv
+	perceptionManagerUpdateMissionStateSrv.srv
         executeQuery.srv
         beliefList.srv
+	#Executive Layer
+	activateCapabilities.srv
+	cancelCapabilities.srv
+        behaviorSrv.srv
 )
 
 

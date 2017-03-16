@@ -1,0 +1,7 @@
+# Capabilities
+capability[] capabilities
+
+---
+
+# return value
+bool ack
