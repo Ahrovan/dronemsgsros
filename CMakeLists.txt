@@ -180,6 +180,7 @@ add_service_files(
 	activateCapabilities.srv
 	cancelCapabilities.srv
         behaviorSrv.srv
+        startBehavior.srv
 )
 
 

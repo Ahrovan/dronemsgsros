@@ -1,9 +1,6 @@
 # behavior name
 string name
 
-#behavior mode
-string mode
-
 # event type
 int32 event
 
