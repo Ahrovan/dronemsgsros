@@ -1,5 +1,6 @@
 # behavior arguments
 string arguments
+int32 timeout
 
 ---
 

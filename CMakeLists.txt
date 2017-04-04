@@ -159,6 +159,10 @@ add_message_files(
 	behavior.msg
 	behaviorEvent.msg
 	capability.msg
+	process.msg
+	listOfCapabilities.msg
+	listOfProcesses.msg
+	listOfBehaviors.msg
 )
 
 
@@ -176,11 +180,16 @@ add_service_files(
 	perceptionManagerUpdateMissionStateSrv.srv
         executeQuery.srv
         beliefList.srv
+	
 	#Executive Layer
-	activateCapabilities.srv
-	cancelCapabilities.srv
         behaviorSrv.srv
         startBehavior.srv
+	queryResources.srv
+	resourcesSrv.srv
+	situation.srv
+	initResources.srv
+	behaviorDefaultValues.srv
+	behaviorConsistency.srv
 )
 
 

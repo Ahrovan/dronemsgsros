@@ -1,5 +1,12 @@
-# behavior name
 string name
 
-# behavior arguments
 string arguments
+
+string[] capabilities
+
+string[] incompatibilities
+
+bool recurrent
+
+int32 timeout
+
