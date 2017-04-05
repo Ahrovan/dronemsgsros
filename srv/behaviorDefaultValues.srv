@@ -1,3 +1,8 @@
+# Behavior name
+string name
+
 ---
-bool basic
+
+# Default arguments
+bool recurrent
 int32 timeout
