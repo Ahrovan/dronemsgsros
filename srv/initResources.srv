@@ -1,5 +1,10 @@
 capability[] capabilities
 
+string operation
+
+string START  = "start"
+string STOP   = "stop"
+
 ---
 
 bool acknowledge
