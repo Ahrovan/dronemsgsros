@@ -1,4 +1,6 @@
 string behavior_name
+
+string[] active_capabilities
 ---
 bool found
 capability[] capabilities

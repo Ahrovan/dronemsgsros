@@ -1,0 +1,9 @@
+string[] capability_name_list
+
+string[] active_capabilities
+
+---
+
+bool consistent
+
+string[] inconsistent_capabilities

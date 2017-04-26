@@ -1,1 +1,1 @@
-behavior[] behaviors
+string[] active_behaviors

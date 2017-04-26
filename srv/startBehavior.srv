@@ -6,3 +6,5 @@ int32 timeout
 
 # confirmation
 bool ack
+
+string error_message

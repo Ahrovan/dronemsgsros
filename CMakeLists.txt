@@ -156,10 +156,9 @@ add_message_files(
 	Event.msg
 
 	# Executive Layer
-	behavior.msg
+	behaviorCommand.msg
 	behaviorEvent.msg
 	capability.msg
-	process.msg
 	listOfCapabilities.msg
 	listOfProcesses.msg
 	listOfBehaviors.msg
@@ -190,6 +189,7 @@ add_service_files(
 	initResources.srv
 	behaviorDefaultValues.srv
 	behaviorConsistency.srv
+	capabilityConsistency.srv
 )
 
 

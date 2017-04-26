@@ -2,10 +2,16 @@
 string name
 
 # event type
-string event
+string behavior_event_code
 
 # event type definitions
-string ACHIEVED		= "ACHIEVED"
-string TIME_OUT		= "TIME_OUT"
-string WRONG_PROGRESS	= "WRONG_PROGRESS"
-string BLOCKED		= "BLOCKED"
+string GOAL_ACHIEVED		= "GOAL_ACHIEVED"
+string TIME_OUT			= "TIME_OUT"
+string WRONG_PROGRESS		= "WRONG_PROGRESS"
+string ASSUMPTION_CONFLICT	= "ASSUMPTION_CONFLICT"
+
+# belief that failed
+string failed_belief
+
+# explicative message of the conflict
+string belief_conflict

@@ -1,1 +1,1 @@
-capability[] capabilities
+string[] active_capabilities

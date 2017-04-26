@@ -1,12 +1,10 @@
 # Behavior to check
 string behavior_name
 
-behavior[] active_behaviors
+behaviorCommand[] active_behaviors
 
 ---
 
 bool consistent
-
-behavior behavior
 
 string[] incompatibilities

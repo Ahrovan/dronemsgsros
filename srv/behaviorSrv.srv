@@ -1,3 +1,13 @@
-behavior behavior
+behaviorCommand behavior
 ---
 bool ack
+
+string error_message
+
+int32 behavior_error_code
+int32 BEHAVIOR_VALUE_INCORRECT		= 1
+int32 ASSUMPTION_CONFLICT		= 2
+
+string failed_belief
+
+string belief_conflict
