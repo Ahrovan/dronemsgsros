@@ -2,7 +2,5 @@ string query
 ---
 bool success
 
-# Same-size arrays where variables[i] is the variable name
-# and substitutions[i] is the value that the variable takes
-string[] variables
-string[] substitutions
+# YAML object with the format {var1: substitution1, var2: substitution2 ...}
+string substitutions
