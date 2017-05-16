@@ -3,3 +3,4 @@ string behavior_name
 ---
 
 bool acknowledge
+string error_message
