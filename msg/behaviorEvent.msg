@@ -11,6 +11,7 @@ string GOAL_ACHIEVED		= "GOAL_ACHIEVED"
 string TIME_OUT			= "TIME_OUT"
 string WRONG_PROGRESS		= "WRONG_PROGRESS"
 string ASSUMPTION_CONFLICT	= "ASSUMPTION_CONFLICT"
+string INTERRUPTED              = "INTERRUPTED"
 
 # belief that failed
 string failed_belief

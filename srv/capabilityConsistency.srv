@@ -1,9 +1,9 @@
-string[] capability_name_list
+string[] capabilities_to_active
 
 string[] active_capabilities
 
 ---
 
 bool consistent
-
+string error_message
 string[] inconsistent_capabilities

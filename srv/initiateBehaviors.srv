@@ -1,4 +1,4 @@
 ---
 
-bool viable
+bool ack
 string error_message

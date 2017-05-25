@@ -3,6 +3,7 @@ string name
 
 ---
 bool ack
+string error_message
 
 # Default arguments
 bool recurrent

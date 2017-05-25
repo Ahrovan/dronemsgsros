@@ -3,4 +3,5 @@ string behavior_name
 string[] active_capabilities
 ---
 bool found
+string error_message
 capability[] capabilities

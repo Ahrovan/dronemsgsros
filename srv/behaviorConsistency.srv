@@ -6,5 +6,5 @@ behaviorCommand[] active_behaviors
 ---
 
 bool consistent
-
+string error_message
 string[] incompatibilities
