@@ -190,6 +190,8 @@ add_service_files(
 	behaviorDefaultValues.srv
 	behaviorConsistency.srv
 	capabilityConsistency.srv
+	initiateBehaviors.srv
+	stopBehavior.srv
 )
 
 
