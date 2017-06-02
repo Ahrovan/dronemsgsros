@@ -1,4 +1,4 @@
-string[] capabilities_to_active
+string[] capabilities_to_activate
 
 string[] active_capabilities
 
