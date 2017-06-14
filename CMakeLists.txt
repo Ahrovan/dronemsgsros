@@ -23,7 +23,7 @@ add_definitions(-std=c++03)
 
 set(DRONEMSGS_SOURCE_DIR
 	src/sources)
-	
+
 set(DRONEMSGS_INCLUDE_DIR
 	src/include
 	)
@@ -31,7 +31,7 @@ set(DRONEMSGS_INCLUDE_DIR
 set(DRONEMSGS_SOURCE_FILES
 
 	)
-	
+
 set(DRONEMSGS_HEADER_FILES
 
 	#General
@@ -177,9 +177,10 @@ add_service_files(
         openMissionFile.srv
         skillRequest.srv
 	perceptionManagerUpdateMissionStateSrv.srv
-        executeQuery.srv
-        beliefList.srv
-	
+        ExecuteQuery.srv
+        AddBeliefs.srv
+				RemoveBeliefs.srv
+
 	#Executive Layer
         behaviorSrv.srv
         startBehavior.srv
