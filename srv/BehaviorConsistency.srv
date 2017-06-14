@@ -1,7 +1,7 @@
 # Behavior to check
 string behavior_name
 
-behaviorCommand[] active_behaviors
+BehaviorCommand[] active_behaviors
 
 ---
 

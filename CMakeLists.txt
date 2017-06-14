@@ -156,12 +156,12 @@ add_message_files(
 	Event.msg
 
 	# Executive Layer
-	behaviorCommand.msg
-	behaviorEvent.msg
-	capability.msg
-	listOfCapabilities.msg
-	listOfProcesses.msg
-	listOfBehaviors.msg
+	BehaviorCommand.msg
+	BehaviorEvent.msg
+	Capability.msg
+	ListOfCapabilities.msg
+	ListOfProcesses.msg
+	ListOfBehaviors.msg
 )
 
 
@@ -181,17 +181,18 @@ add_service_files(
         beliefList.srv
 	
 	#Executive Layer
-        behaviorSrv.srv
-        startBehavior.srv
-	queryResources.srv
-	resourcesSrv.srv
-	situation.srv
-	initResources.srv
-	behaviorDefaultValues.srv
-	behaviorConsistency.srv
-	capabilityConsistency.srv
-	initiateBehaviors.srv
-	stopBehavior.srv
+        BehaviorSrv.srv
+        StartBehavior.srv
+	QueryResources.srv
+	ResourcesSrv.srv
+	Situation.srv
+	InitResources.srv
+	BehaviorDefaultValues.srv
+	BehaviorConsistency.srv
+	CapabilityConsistency.srv
+	InitiateBehaviors.srv
+	StopBehavior.srv
+	LocalizationSelection.srv
 )
 
 

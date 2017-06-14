@@ -1,4 +1,4 @@
-behaviorCommand behavior
+BehaviorCommand behavior
 ---
 bool ack
 

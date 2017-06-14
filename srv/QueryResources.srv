@@ -2,4 +2,4 @@ string behavior_name
 ---
 bool found
 string error_message
-capability[] capabilities
+Capability[] capabilities
