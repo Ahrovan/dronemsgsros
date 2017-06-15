@@ -177,9 +177,9 @@ add_service_files(
         openMissionFile.srv
         skillRequest.srv
 	perceptionManagerUpdateMissionStateSrv.srv
-        ExecuteQuery.srv
-        AddBeliefs.srv
-        RemoveBeliefs.srv
+        ConsultBelief.srv
+        AddBelief.srv
+        RemoveBelief.srv
 
 	#Executive Layer
         BehaviorSrv.srv
