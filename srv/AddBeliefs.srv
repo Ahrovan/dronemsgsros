@@ -1,4 +1,9 @@
-bool multivalued
-string belief_list
+# SERVICE TYPE: AddBeliefs
+# ------------------------------------------------------------------------------
+# This service adds a belief expression to the belief memory
+
+bool multivalued          # whether to keep clashing beliefs in the memory or not
+string belief_expression  # belief expression to add to the memory
 ---
-bool success
+bool success              # whether the belief has been added successfully or not
+# ------------------------------------------------------------------------------

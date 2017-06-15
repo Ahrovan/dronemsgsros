@@ -1,3 +1,8 @@
-string belief_list
+# SERVICE TYPE: RemoveBeliefs
+# ------------------------------------------------------------------------------
+# This service removes a belief expression from the belief memory
+
+string belief_expression  # belief expression to remove from the memory
 ---
-bool success
+bool success              # whether the belief has been removed successfully or not
+# ------------------------------------------------------------------------------
