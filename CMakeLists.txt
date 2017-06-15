@@ -180,6 +180,7 @@ add_service_files(
         ConsultBelief.srv
         AddBelief.srv
         RemoveBelief.srv
+        CheckBeliefFormat.srv
 
 	#Executive Layer
         BehaviorSrv.srv
