@@ -1,20 +1,14 @@
-Header header
+# A behavior event informs about the execution result of a behavior
 
-# behavior name
-string name
+Header header                   # Message header
+string name                     # Behavior name
+string failed_belief            # belief expression of the behavior preconditions that is not satisfied
+string belief_conflict          # belief that generates the failure of the preconditions
+string behavior_event_code      # code of the behavior event
 
-# event type
-string behavior_event_code
-
-# event type definitions
+# Possible values for behavior_event_code
 string GOAL_ACHIEVED		= "GOAL_ACHIEVED"
 string TIME_OUT			= "TIME_OUT"
 string WRONG_PROGRESS		= "WRONG_PROGRESS"
 string ASSUMPTION_CONFLICT	= "ASSUMPTION_CONFLICT"
 string INTERRUPTED              = "INTERRUPTED"
-
-# belief that failed
-string failed_belief
-
-# explicative message of the conflict
-string belief_conflict

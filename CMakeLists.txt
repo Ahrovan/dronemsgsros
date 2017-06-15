@@ -179,21 +179,21 @@ add_service_files(
 	perceptionManagerUpdateMissionStateSrv.srv
         ExecuteQuery.srv
         AddBeliefs.srv
-				RemoveBeliefs.srv
+        RemoveBeliefs.srv
 
 	#Executive Layer
         BehaviorSrv.srv
         StartBehavior.srv
 	QueryResources.srv
 	ResourcesSrv.srv
-	Situation.srv
+	CheckSituation.srv
 	InitResources.srv
-	BehaviorDefaultValues.srv
-	BehaviorConsistency.srv
-	CapabilityConsistency.srv
+	ConsultDefaultBehaviorValues.srv
+	CheckBehaviorGroupConsistency.srv
+	CheckCapabilitiesConsistency.srv
 	InitiateBehaviors.srv
 	StopBehavior.srv
-	LocalizationSelection.srv
+	SelectSelfLocalization.srv
 )
 
 
