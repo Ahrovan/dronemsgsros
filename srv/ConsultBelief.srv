@@ -1,4 +1,4 @@
-# SERVICE TYPE: ExecuteQuery
+# SERVICE TYPE: ConsultBelief
 # ------------------------------------------------------------------------------
 # This service queries the belief memory belief memory, returning a boolean
 # value and a list of variables substituted to unify the query
