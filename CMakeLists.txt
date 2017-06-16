@@ -193,7 +193,6 @@ add_service_files(
 	CheckCapabilitiesConsistency.srv
 	InitiateBehaviors.srv
 	StopBehavior.srv
-	SelectSelfLocalization.srv
 )
 
 

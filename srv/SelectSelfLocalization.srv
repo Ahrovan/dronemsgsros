@@ -1,8 +1,0 @@
-int32 localization_mode
-int32 ODOMETRY = 1
-int32 ARUCO_SLAM = 2
-
----
-
-bool changed
-string error_message
