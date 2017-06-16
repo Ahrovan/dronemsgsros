@@ -1,6 +1,0 @@
-string query
----
-bool success
-
-# YAML object with the format {var1: substitution1, var2: substitution2 ...}
-string substitutions
