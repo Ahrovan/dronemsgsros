@@ -194,6 +194,8 @@ add_service_files(
 	CheckCapabilitiesConsistency.srv
 	InitiateBehaviors.srv
 	StopBehavior.srv
+	CheckReactiveActivation.srv
+	RecordReactiveBehaviors.srv
 )
 
 
