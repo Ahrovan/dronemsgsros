@@ -7,8 +7,8 @@ string belief_conflict          # belief that generates the failure of the preco
 string behavior_event_code      # code of the behavior event
 
 # Possible values for behavior_event_code
-string GOAL_ACHIEVED		= "GOAL_ACHIEVED"
-string TIME_OUT			= "TIME_OUT"
-string WRONG_PROGRESS		= "WRONG_PROGRESS"
-string ASSUMPTION_CONFLICT	= "ASSUMPTION_CONFLICT"
-string INTERRUPTED              = "INTERRUPTED"
+string GOAL_ACHIEVED            = GOAL_ACHIEVED
+string TIME_OUT                 = TIME_OUT
+string WRONG_PROGRESS           = WRONG_PROGRESS
+string ASSUMPTION_CONFLICT      = ASSUMPTION_CONFLICT
+string INTERRUPTED              = INTERRUPTED
