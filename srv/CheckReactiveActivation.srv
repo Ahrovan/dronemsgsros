@@ -1,0 +1,10 @@
+string[] reactive_behaviors
+string[] active_behaviors
+
+---
+
+string[] high_priority_behaviors
+string[] low_priority_behaviors
+
+bool ack
+string error_message
