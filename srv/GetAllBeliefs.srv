@@ -1,0 +1,7 @@
+# SERVICE TYPE: GetAllBeliefs
+# ------------------------------------------------------------------------------
+# This service returns a string containing all of the beliefs in memory
+
+---
+string beliefs        # newline-separated list of beliefs
+# ------------------------------------------------------------------------------

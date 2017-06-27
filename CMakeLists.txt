@@ -181,6 +181,7 @@ add_service_files(
         AddBelief.srv
         RemoveBelief.srv
         CheckBeliefFormat.srv
+        GetAllBeliefs.srv
 
 	#Executive Layer
         BehaviorSrv.srv
