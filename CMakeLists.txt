@@ -154,6 +154,7 @@ add_message_files(
 	SkillsList.msg
 	SkillState.msg
 	Event.msg
+	AllBeliefs.msg
 
 	# Executive Layer
 	BehaviorCommand.msg
@@ -181,7 +182,6 @@ add_service_files(
         AddBelief.srv
         RemoveBelief.srv
         CheckBeliefFormat.srv
-        GetAllBeliefs.srv
 
 	#Executive Layer
         BehaviorSrv.srv
