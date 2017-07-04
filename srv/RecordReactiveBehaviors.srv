@@ -1,4 +1,7 @@
-string[] high_priority_reactive_behaviors
-string[] low_priority_reactive_behaviors
-
 ---
+
+string[] high_priority_behaviors
+string[] low_priority_behaviors
+
+bool ack
+string error_message

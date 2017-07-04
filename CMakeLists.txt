@@ -188,7 +188,6 @@ add_service_files(
 	QueryResources.srv
 	ResourcesSrv.srv
 	CheckSituation.srv
-	InitResources.srv
 	ConsultDefaultBehaviorValues.srv
 	CheckBehaviorGroupConsistency.srv
 	CheckCapabilitiesConsistency.srv

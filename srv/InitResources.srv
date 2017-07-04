@@ -1,6 +1,0 @@
-Capability[] capabilities
-
----
-
-bool acknowledge
-string error_message
