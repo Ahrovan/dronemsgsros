@@ -155,6 +155,7 @@ add_message_files(
 	SkillState.msg
 	Event.msg
 	AllBeliefs.msg
+	BeliefStatement.msg
 
 	# Executive Layer
 	BehaviorCommand.msg
