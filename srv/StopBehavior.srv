@@ -1,0 +1,4 @@
+---
+
+bool ack
+string error_message

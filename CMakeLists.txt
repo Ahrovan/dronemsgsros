@@ -23,7 +23,7 @@ add_definitions(-std=c++03)
 
 set(DRONEMSGS_SOURCE_DIR
 	src/sources)
-	
+
 set(DRONEMSGS_INCLUDE_DIR
 	src/include
 	)
@@ -31,7 +31,7 @@ set(DRONEMSGS_INCLUDE_DIR
 set(DRONEMSGS_SOURCE_FILES
 
 	)
-	
+
 set(DRONEMSGS_HEADER_FILES
 
 	#General
@@ -126,34 +126,45 @@ add_message_files(
         Target.msg
         VectorROIs.msg
 
-            #new process supervisor
-            AliveSignal.msg
-                ProcessState.msg
-            ProcessError.msg
-                ErrorType.msg
-            ProcessDescriptorList.msg
-                ProcessDescriptor.msg
-                    ProcessState.msg
+        #new process supervisor
+        AliveSignal.msg
+        ProcessState.msg
+        ProcessError.msg
+        ErrorType.msg
+        ProcessDescriptorList.msg
+        ProcessDescriptor.msg
+        ProcessState.msg
 
-  distanceToObstacle.msg
-  distancesToObstacles.msg
+	distanceToObstacle.msg
+	distancesToObstacles.msg
 
-		#Global Mission Planner
-		droneTask.msg
-		droneMission.msg
-                visualObjectRecognized.msg
-                vectorVisualObjectsRecognized.msg
-                dronePerceptionManagerMissionRequest.msg
-                dronePerceptionManagerMissionState.msg
+	#Global Mission Planner
+	droneTask.msg
+	droneMission.msg
+        visualObjectRecognized.msg
+        vectorVisualObjectsRecognized.msg
+        dronePerceptionManagerMissionRequest.msg
+        dronePerceptionManagerMissionState.msg
 
-  actionArguments.msg
-  actionData.msg
-  CompletedAction.msg
-  PublicEvent.msg
-  SkillDescriptor.msg
-  SkillsList.msg
-  SkillState.msg
-  Event.msg
+	actionArguments.msg
+	actionData.msg
+	CompletedAction.msg
+	PublicEvent.msg
+	SkillDescriptor.msg
+	SkillsList.msg
+	SkillState.msg
+	Event.msg
+	AllBeliefs.msg
+	BeliefStatement.msg
+
+	# Executive Layer
+	BehaviorCommand.msg
+	BehaviorEvent.msg
+	Capability.msg
+	ListOfCapabilities.msg
+	ListOfProcesses.msg
+	ListOfBehaviors.msg
+    QRInterpretation.msg
 )
 
 
@@ -170,6 +181,24 @@ add_service_files(
         skillRequest.srv
 		perceptionManagerUpdateMissionStateSrv.srv
         classifyImage.srv
+        ConsultBelief.srv
+        AddBelief.srv
+        RemoveBelief.srv
+        CheckBeliefFormat.srv
+
+	#Executive Layer
+        BehaviorSrv.srv
+        StartBehavior.srv
+	QueryResources.srv
+	ResourcesSrv.srv
+	CheckSituation.srv
+	ConsultDefaultBehaviorValues.srv
+	CheckBehaviorGroupConsistency.srv
+	CheckCapabilitiesConsistency.srv
+	InitiateBehaviors.srv
+	StopBehavior.srv
+	CheckReactiveActivation.srv
+	RecordReactiveBehaviors.srv
 )
 
 

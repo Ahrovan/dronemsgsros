@@ -1,0 +1,8 @@
+# behavior arguments
+string arguments
+int32 timeout
+
+---
+
+bool ack
+string error_message
