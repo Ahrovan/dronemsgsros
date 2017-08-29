@@ -29,4 +29,5 @@ int32 MOVING_FLIP_FRONT             = 18
 int32 MOVING_FLIP_BACK              = 19
 int32 MOVING_EMERGENCY              = 20
 int32 LANDING_AUTONOMOUS            = 21
+int32 MOVE_VISUAL_SERVOING_RL       = 22
 int32 UNKNOWN                       = 100

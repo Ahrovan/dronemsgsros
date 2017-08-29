@@ -26,6 +26,7 @@ int32 MOVE_FLIP_FRONT             = 18
 int32 MOVE_FLIP_BACK              = 19
 int32 MOVE_EMERGENCY              = 20
 int32 LAND_AUTONOMOUS             = 21
+int32 MOVE_VISUAL_SERVOING_RL     = 22
 int32 UNKNOWN                     = 100
 
 #This Modules are going to be sent by the Mission Planner or HMI
