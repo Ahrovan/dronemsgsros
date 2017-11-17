@@ -199,6 +199,7 @@ add_service_files(
 	StopBehavior.srv
 	CheckReactiveActivation.srv
 	RecordReactiveBehaviors.srv
+	ConsultAvailableBehaviors.srv
 )
 
 
