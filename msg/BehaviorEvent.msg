@@ -2,6 +2,7 @@
 
 Header header                   # Message header
 string name                     # Behavior name
+float64 uid                      # UID of the behavior
 string failed_belief            # belief expression of the behavior preconditions that is not satisfied
 string belief_conflict          # belief that generates the failure of the preconditions
 string behavior_event_code      # code of the behavior event

@@ -187,7 +187,7 @@ add_service_files(
         CheckBeliefFormat.srv
 
 	#Executive Layer
-        BehaviorSrv.srv
+	BehaviorSrv.srv
         StartBehavior.srv
 	QueryResources.srv
 	ResourcesSrv.srv
@@ -200,6 +200,9 @@ add_service_files(
 	CheckReactiveActivation.srv
 	RecordReactiveBehaviors.srv
 	ConsultAvailableBehaviors.srv
+	InhibitBehavior.srv
+	RequestBehavior.srv
+	ConsultIncompatibleBehaviors.srv
 )
 
 
