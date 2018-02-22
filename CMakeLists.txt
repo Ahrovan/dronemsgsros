@@ -156,6 +156,7 @@ add_message_files(
 	Event.msg
 	AllBeliefs.msg
 	BeliefStatement.msg
+	CompletedMission.msg
 
 	# Executive Layer
 	BehaviorCommand.msg
