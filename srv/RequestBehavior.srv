@@ -1,4 +1,4 @@
-# This service starts or activates or inhibits a behavior
+# This service starts a behavior
 
 BehaviorCommand behavior            # The name of the behavior to activate and its argument
 ---
