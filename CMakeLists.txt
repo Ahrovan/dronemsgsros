@@ -165,6 +165,8 @@ add_message_files(
 	ListOfCapabilities.msg
 	ListOfProcesses.msg
 	ListOfBehaviors.msg
+
+	
   QRInterpretation.msg
 	segmento.msg
 	seg.msg
@@ -206,6 +208,7 @@ add_service_files(
 	InhibitBehavior.srv
 	RequestBehavior.srv
 	ConsultIncompatibleBehaviors.srv
+	RequestResources.srv
 )
 
 
