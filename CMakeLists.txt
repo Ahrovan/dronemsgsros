@@ -165,7 +165,9 @@ add_message_files(
 	ListOfCapabilities.msg
 	ListOfProcesses.msg
 	ListOfBehaviors.msg
-    QRInterpretation.msg
+  QRInterpretation.msg
+	segmento.msg
+	seg.msg
 )
 
 
