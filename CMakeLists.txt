@@ -209,6 +209,7 @@ add_service_files(
 	RequestBehavior.srv
 	ConsultIncompatibleBehaviors.srv
 	RequestResources.srv
+	CheckBehaviorFormat.srv
 )
 
 
