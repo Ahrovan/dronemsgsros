@@ -22,5 +22,6 @@ float32 roll
 #  [*] note that: wYvPuR equals to xRyPzY
 #  [*] note that: xYyPzR equals to wRvPuY
 # This is, homogeneous transformation of the target_frame with respect to the reference_frame
+string YPR_system
 string target_frame
 string reference_frame
